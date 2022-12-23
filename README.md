@@ -830,7 +830,7 @@ function lib(Options)
 
                 local DropAmount = 0
                 for i,v in next, List do
-                    DropAmount = DropAmount + i
+                    DropAmount = DropAmount + 1
                     local Button = Instance.new("TextButton")
                     local ButtonC = Instance.new("UICorner")
                     
@@ -1038,7 +1038,7 @@ function lib(Options)
                 Bind.Position = UDim2.new(0.632532716, 0, 0.140000001, 0)
                 Bind.Size = UDim2.new(0.335678488, 0, 0, 35)
                 Bind.Font = Enum.Font.SourceSans
-                Bind.Text = bind or "P"
+                Bind.Text = "[NONE]"
                 Bind.TextColor3 = Color3.fromRGB(255, 255, 255)
                 Bind.TextSize = 24.000
                 Bind.TextXAlignment = Enum.TextXAlignment.Right
